@@ -1,0 +1,95 @@
+
+	"vim.insertModeKeyBindings": [
+		{
+			"before": ["j", "j"],
+			"after": ["<Esc>"]
+		}
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+	     {
+	         "before": ["l"],
+	         "after": ["o"]
+	     },
+	     {
+	         "before": ["L"],
+	         "after": ["O"]
+	     },
+	     {
+	         "before": ["o"],
+	         "after": ["l"]
+	     },
+	     {
+	         "before": ["O"],
+	         "after": ["L"]
+	     },
+	     {
+	         "before": ["j"],
+	         "after": ["n"]
+	     },
+	     {
+	         "before": ["J"],
+	         "after": ["N"]
+	     },
+	     {
+	         "before": ["n"],
+	         "after": ["j"]
+	     },
+	     {
+	         "before": ["N"],
+	         "after": ["J"]
+	     },
+	     {
+	         "before": ["g", "j"],
+	         "after": ["g", "n"]
+	     },
+	     {
+	         "before": ["g", "n"],
+	         "after": ["g", "j"]
+	     },
+	     {
+	         "before": ["k"],
+	         "after": ["e"]
+	     },
+	     {
+	         "before": ["K"],
+	         "after": ["E"]
+	     },
+	     {
+	         "before": ["e"],
+	         "after": ["k"]
+	     },
+	     {
+	         "before": ["E"],
+	         "after": ["K"]
+	     },
+	     {
+	         "before": ["g", "k"],
+	         "after": ["g", "e"]
+	     },
+	     {
+	         "before": ["g", "e"],
+	         "after": ["g", "k"]
+	     },
+	     {
+	         "before": ["h"],
+	         "after": ["y"]
+	     },
+	     {
+	         "before": ["H"],
+	         "after": ["Y"]
+	     },
+	     {
+	         "before": ["y"],
+	         "after": ["h"]
+	     },
+	     {
+	         "before": ["Y"],
+	         "after": ["h"]
+	     },
+	],
+	"vim.operatorPendingModeKeyBindingsNonRecursive": [
+	    {
+	        "before": ["h"],
+	        "after": ["y"]
+	    }
+	],
